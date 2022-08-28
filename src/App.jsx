@@ -8,7 +8,6 @@ function App() {
   const [listTask, setListTask] = useState([]);
 
   const addTask = () => {
-    //if (!task) return alert("Preencha uma tarefa");
     if (!task) {
       if (!task) return toast("Insira uma nova tarefa");
     }
