@@ -46,7 +46,7 @@ function App() {
           onChange={(e) => setTask(e.target.value)}
         />
         <div>
-          <Button onClick={addTask}>Adicionar</Button>
+          <Button onClick={addTask}>Adicionar Tarefa</Button>
           <ToastContainer />
         </div>
       </Flex>
